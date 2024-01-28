@@ -1,0 +1,34 @@
+[
+    {
+        "name":"iphone",
+        "price":154,
+        "feature":true,
+        "company":"apple"
+    },
+    {
+        "name":"iphone12",
+        "price":1534,
+        "feature":true,
+        "company":"apple"
+    },
+    {
+        "name":"iphone15",
+        "price":1204,
+        "company":"apple"
+    },
+    {
+        "name":"iphone14",
+        "price":124,
+        "company":"apple"
+    },
+    {
+        "name":"galaxy20",
+        "price":154,
+        "company":"samsung"
+    },
+    {
+        "name":"redmi",
+        "price":154,
+        "company":"mi"
+    }
+]

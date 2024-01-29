@@ -1,9 +1,13 @@
+const Product=require('../models/product.js')
+
 const getAllProducts=async(req,res)=>{
-    res.status(200).json({msg:"getAllProducts"});
+    const myData=await Product.find({});
+    res.status(200).json({myData});
 }
 
 const getAllProductsTesting=async(req,res)=>{
-    res.status(200).json({msg:"getAllProductsTesting"});
+    const myData=await Product.find({company:"samsung"});
+    res.status(200).json({myData});
 }
 
 module.exports={getAllProducts,getAllProductsTesting}

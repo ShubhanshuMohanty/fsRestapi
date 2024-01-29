@@ -2,13 +2,13 @@
     {
         "name":"iphone",
         "price":154,
-        "feature":true,
+        "featured":true,
         "company":"apple"
     },
     {
         "name":"iphone12",
         "price":1534,
-        "feature":true,
+        "featured":true,
         "company":"apple"
     },
     {
